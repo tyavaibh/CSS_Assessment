@@ -249,6 +249,25 @@ input{
         /* border: 1px solid red; */
     }
 
+    .little-text {
+        color : #4682B4; 
+        font-size: 16px;
+    }
+    
+    .huge-text{
+        font-size: 20px;
+        color : #4682B4; 
+    }
+    
+    .btn-over-image{
+        color :#4682B4;
+        border : 1px solid #4682B4;
+        /* border-color: #4682B4; */
+        padding : 15px;
+        background-color: white;
+        font-weight: bolder;
+    }
+
     .card-container{
         display: flex;
         flex-direction: column;
@@ -268,18 +287,20 @@ input{
     footer{
         margin-top: 100px;
         border: 1px solid red;
-        align-items: flex-start;
+        align-items: center;
+        height : auto;
+        justify-content: center;
     }
 
     .footer-form {
         /* border : 1px solid white; */
-       width : 240px;
-       display: flex;
-       flex-direction: column;
+       /* min-width : 240px;
+       display: grid;
+       grid-template-rows:  repeat(11,40px);
+       grid-template-columns: repeat(1,1fr);
        align-items: center;
-       justify-content: center;
-       /* border: 1px solid red; */
-    }
+       border: 1px solid red; */
+    }      
 
-        
+    
 }
